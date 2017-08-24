@@ -1,14 +1,15 @@
 # 题目: 使用者输入 x,y,z，请输出三个数中最大的数
 
 print "请输入一个数字x，然后按 Enter: "
-x = gets
+x = gets.to_i
 
 print "请输入一个数字y，然后按 Enter: "
-y = gets
+y = gets.to_i
 
 print "请输入一个数字z，然后按 Enter: "
-z = gets
+z = gets.to_i
 
 # ....
+result = x > y ? x > z ? x : z : y > z ? y : z
 
-puts "最大的数是 ________(x或y或z)"
+puts "最大的数是 ___#{result}_____(x或y或z)"
