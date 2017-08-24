@@ -5,4 +5,5 @@ your_name = gets
 
 # ...
 
-puts "(请替换成最后的答案)"
+puts "Hello," + your_name
+puts "如果你坚持双引号里面要有双引号，那你得写成 \" 做逸出"
