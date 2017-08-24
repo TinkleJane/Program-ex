@@ -10,6 +10,6 @@ print "请输入一个数字z，然后按 Enter: "
 z = gets.to_i
 
 # ....
-result = x > y ? x > z ? x : z : y > z ? y : z
+result = x > y ? x > z ? 'x' : 'z' : y > z ? 'y' : 'z'
 
 puts "最大的数是 ___#{result}_____(x或y或z)"

@@ -6,7 +6,7 @@ total = 0
 while ( i <= 100 )
 
   # ....
-
+  total += i if i.even?
   i+=1
 end
 
