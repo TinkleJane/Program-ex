@@ -3,8 +3,8 @@
 arr = []
 
 print "请输入数字 N，然后按 Enter: "
-n = gets
+n = gets.to_i
 
 # ...
-
+arr = Array.new(n){|e| e *= e}
 puts arr.to_s

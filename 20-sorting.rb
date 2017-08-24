@@ -3,9 +3,10 @@
 
 def filter_even(arr)
   #...
+  arr.sort.uniq
 end
 
 arr =  [7, 68, 42, 46, 9, 91, 77, 46, 86, 1]
 
 
-puts "________" # 应该是 [42, 46, 68, 86]
+puts "___#{filter_even(arr)}_____" # 应该是 [42, 46, 68, 86]
